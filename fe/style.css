@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    background-color: rgb(199, 239, 247);
+    font-family: 'Nerko One', cursive;
+}
+
+button{
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+
+.page-nave{
+    background-color: rgb(228, 148, 228);
+    border: 1px solid black;
+    position: relative;
+}
+.page-nave h1{
+    margin: 20px;
+}
+
+.button-checkout{
+    background-color: white;
+    color: black;
+    border: 2px solid #6e9bd6;
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+.button-checkout:hover{
+    background-color: rgb(211, 180, 240);
+    color: rgb(110, 110, 224);
+}
+
+
+.page-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid rgb(189, 225, 236);
+}
+
+.products-container{
+    border-radius: 20px;
+    margin:10px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.1);
+    background-color: rgb(253, 254, 255);
+}
+.products-container:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0,0.2);
+}
+
+.products-container img{
+    width: 300px;
+}
+.products-container h1{
+    margin-bottom:10px ;
+    margin-bottom:15px;
+}
+.products-container h2{
+    text-align: center;
+
+}
+.button-add{
+    background-color: white;
+    color: black;
+    border: 2px solid #6e9bd6;
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+.button-add:hover{
+    background-color: rgb(211, 180, 240);
+    color: rgb(110, 110, 224);
+}
+.button-add.disabled{
+    background-color: white;
+    color: rgb(8, 8, 8);
+    border: 2px solid #636366;
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+.button-add.disabled:hover{
+    background-color: rgb(160, 156, 160);
+    color: rgb(11, 11, 14);
+}
